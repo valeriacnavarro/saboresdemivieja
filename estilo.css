@@ -1,0 +1,131 @@
+header img 
+{
+  margin: 0 auto; /* Centra la imagen */
+  width: 100%; /* Establece un ancho específico para la imagen */
+  height: 350px; /* Mantiene la proporción de la imagen */
+  text-align: center; /* Centra el contenido del header */
+}
+
+
+.header-flex img {
+  max-width: 100%;
+  height: auto;
+}
+header
+{background-color: #d3bca5;
+
+}
+
+h2
+{
+  text-align: center; /* Centra el contenido del header */
+  background-color: rgb(218, 131, 69);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 60px;
+  color: #7c0606; /* Color del texto */
+}
+p
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Cambia la fuente del cuerpo */
+  background-color: #b46311; /* Color de fondo de la página */
+  color: hsl(0, 40%, 76%); /* Color del texto */
+  margin: 0; /* Elimina márgenes por defecto */
+  padding: 20px; /* Agrega padding al cuerpo */
+  text-align: center;
+  font-size: 40px;
+}
+
+
+table {
+  width: 100%; /* La tabla ocupa todo el ancho disponible */
+  border-collapse: collapse; /* Elimina espacios entre celdas */
+  margin: 20px 0; /* Margen alrededor de la tabla */
+}
+
+td {
+  width: 50%; /* Cada celda ocupa el 50% del ancho */
+  padding: 10px; /* Espacio interno de las celdas */
+}
+
+.accordion {
+  padding: 10px; /* Padding interno */
+  background-color: #f4f4f4; /* Color de fondo del acordeón */
+  border: 1px solid #ccc; /* Borde del acordeón */
+}
+
+.accordion__content {
+  display: none; /* Oculta el contenido por defecto */
+}
+
+.accordion__input:checked + .accordion__label + .accordion__content {
+  display: block; /* Muestra el contenido cuando la sección está activa */
+}
+
+
+.video-container {
+  position: relative; /* Permite posicionar elementos hijos de forma absoluta */
+  width: 80%; /* Ajusta el ancho según lo necesites */
+  max-width: 800px; /* Ancho máximo para mantener la legibilidad */
+  max-height: 400px; /* Limita la altura máxima */
+  overflow: hidden; /* Oculta cualquier parte del video que sobresalga */
+}
+
+#video-background {
+  width: 100%; /* Ancho completo del contenedor */
+  height: 100vh; /* Mantiene la proporción del video */
+  max-height: 100%; /* Limita la altura máxima del video al contenedor */
+  align-items: center; /* Centra verticalmente */
+  background-color: #d3bca5;
+}
+
+
+.accordion
+{
+    margin-bottom: 10px;
+  }
+
+  .accordion__label {
+    display: block;
+    background-color: #9f5e5e;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid #8b1010;
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #7c0606;
+  }
+
+  .accordion__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #fafafa;
+    padding: 0 10px;
+  }
+
+  /* Cuando se selecciona el checkbox, el contenido se despliega */
+  .accordion__input:checked + .accordion__label + .accordion__content {
+    max-height: 200px; /* Ajusta este valor según el contenido */
+    padding: 10px;
+  }
+
+  /* Ocultar el input checkbox */
+  .accordion__input {
+    display: none;
+  }
+
+  .carousel-item img {
+    width: 20%; /* Ancho completo del contenedor */
+    height: 100vh; /* Mantiene la proporción del video */
+    max-height: 20%; /* Limita la altura máxima del video al contenedor */
+    align-items: center; /* Centra verticalmente */
+    padding: 80px;
+    background-color: #d3bca5;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre las imágenes */
+  background-color:#d3bca5;
+}
